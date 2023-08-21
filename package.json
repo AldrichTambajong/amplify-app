@@ -11,10 +11,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "safari": "^0.0.1",
+    "set-default-browser": "^1.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER=safari react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -32,9 +34,9 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
+      "last 1 safari version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 chrome version"
     ]
   }
 }
